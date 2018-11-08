@@ -1,0 +1,118 @@
+@import url("https://use.typekit.net/dev8qvd.css");
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.02em;
+    margin-top: 8px;
+    overflow: auto;
+    hyphens: none;
+}
+
+h1 {
+    font-family: Acumin Pro, sans-serif;
+    font-size: 3vmin;
+    color: black;
+    letter-spacing: 0em;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: Acumin Pro, sans-serif;
+    font-size: 4vmin;
+    color: #fff;
+    letter-spacing: 0em;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: Acumin Pro, sans-serif;
+    font-size: 6.7vmin;
+    color: #fff;
+    letter-spacing: 0em;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+ul {
+    margin-top: 6vh;
+}
+
+ul > li {
+    display: inline-block;
+    *display:inline;
+}
+
+
+.site-content{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.logo img {
+    display: block;
+    width: 50%;
+}
+
+.intro {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2; 
+}
+
+.text-1 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 3; 
+}
+
+.navigation{
+    display: inline-block;
+    float: right;
+    grid-column-start: 10;
+    grid-row-start: 1;
+}
+
+
+h2:hover span {
+    text-decoration: underline;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+::selection {
+  color: blue;
+}
+::-moz-selection {
+  color: blue;
+}

@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-family: Acumin Pro, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     color: black;
     letter-spacing: 0em;
     font-weight: 400;
@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     font-family: Acumin Pro, sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     color: black;
     letter-spacing: 0em;
     font-weight: 300;
@@ -46,11 +46,12 @@ h3 {
 
 ul {
     display: flex;
+    float: right;
     list-style: none;
 }
 
 li {
-    margin-right: 5em;
+    margin-left: 5em;
 }
 
 
@@ -95,9 +96,8 @@ li {
 }
 
 .navigation{
-    margin-top: 15px;
     text-align: right;
-    grid-column-start: 4;
+    grid-column-end: 11;
     grid-row-start: 1;
     
 }
